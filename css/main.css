@@ -1,0 +1,11 @@
+#app{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+.footer-heart{ color: #ff0; }
+.logo{ width: 320px; }
+.centralizar{ text-align: center; }
+.justificar{ text-align: justify; }
