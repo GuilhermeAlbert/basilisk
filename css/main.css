@@ -5,6 +5,7 @@
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
 }
+.no-display{ display: none; }
 .footer-heart{ color: #ff0; }
 .logo{ width: 320px; }
 .centralizar{ text-align: center; }
