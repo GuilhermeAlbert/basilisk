@@ -1,21 +1,45 @@
-#app{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-right: -50%;
-	transform: translate(-50%, -50%);
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+body {
+  background-color: #212529;
+  color: #f8f9fa;
+  font-family: "Press Start 2P", cursive;
 }
-.no-display{ display: none; }
-.footer-heart{ color: #ff0; }
-.logo{ width: 320px; }
-.centralizar{ text-align: center; }
-.justificar{ text-align: justify; }
+
+#app {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+.no-display {
+  display: none;
+}
+.footer-heart {
+  color: #ff0;
+}
+.logo {
+  width: 320px;
+  margin-bottom: 20px;
+}
+.centralizar {
+  text-align: center;
+}
+.justificar {
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.9rem;
+}
+
+h4 {
+  color: #84c27a;
+  margin-bottom: 15px;
+}
+
 canvas {
-	border: 3px solid #84c27a;
-	top: 0;
-	bottom: 0;
-	right: 0;
-	left: 0;	
-	margin: auto;
-	display: block;
+  border: 4px solid #84c27a;
+  box-shadow: 0 0 20px rgba(132, 194, 122, 0.5);
+  display: block;
+  background-color: #000;
 }
