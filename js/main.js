@@ -196,8 +196,8 @@ function update() {
     snake.direction = DOWN;
   }
 
-  // A cada cinco quadros, atualiza o estado do jogo
-  if (frames % 5 === 0) {
+  // A cada vinte quadros, atualiza o estado do jogo
+  if (frames % 20 === 0) {
     // Último elemento da cobra
     var nx = snake.last.x;
     var ny = snake.last.y;
